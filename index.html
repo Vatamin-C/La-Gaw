@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="pharmacy.css">
+    <script src="https://kit.fontawesome.com/b1604b0f09.js" crossorigin="anonymous"></script>
+    <title>La Gaw Pharmacy</title>
+</head>
+
+<body>
+    <section class="container-fluid" style="background-color: #9D84B7;">
+        <h3 style="color: black; text-align: center; padding: 20px;">
+            <span id="shopName"
+                style="border: 2px solid chartreuse; background-color: #091353; border-radius: 5px; padding: 3px;">La-Gaw
+                Pharmacy</span>
+            <p style="padding: 10px;">ပုဂံမြို့တွင်း အိမ်အရောက်ပို့ဆောင်ပေးပါသည်။</p>
+        </h3>
+    </section>
+    <header class="container-fluid" style="display: flex; background-color: #FFF3E4;">
+        <div style="text-align: center; padding: 25px;">
+            <h3>La-Gaw <i class="fas fa-clinic-medical"></i></h3>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                aria-controls="offcanvasTop">Search</button>
+
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasTopLabel">Search and Order the medicines & other medical products</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Enter the medical products'name you want" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div style="padding: 10px;">
+                <a href="https://www.facebook.com/gaw.gyi.3576"><button type="button" class="btn btn-warning">ဆက်သွယ်ရန်</button></a>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid" style="display: flex; justify-content: center; background-color: #D1E8E4; ">
+        <div style="background-color: #D1E8E4; max-width: 800px;">
+            <div>
+                <h1 style="padding: 10px; font-family: 'Courier New', Courier, monospace;">Special medicine available in
+                    La-Gaw Shop!</h1>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="4tos/zh-t.jpeg" class="d-block w-100" alt="...">
+                        <figcaption class="figure-caption">
+                            <h3>အရူးပျောက်ဆေး</h3>
+                        </figcaption>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="4tos/cg-g.jpeg" class="d-block w-100" alt="...">
+                        <figcaption class="figure-caption">
+                            <h3>ကျပ်ပြည့်ဆေး</h3>
+                        </figcaption>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="4tos/cc-r.jpeg" class="d-block w-100" alt="...">
+                        <figcaption class="figure-caption">
+                            <h3>စိတ်ငြိမ်ဆေး</h3>
+                        </figcaption>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <h3 style="display: flex; padding: 20px; text-align: center; justify-content: center; color: white;">Thanks for visit my online pharmacy Shop</h3>
+        <div style="display: flex; justify-content: space-evenly;">
+            <div style="display: flex; flex-direction: column;">
+                <a href="support.html"><button type="button" class="btn btn-dark foot">Support</button></a>
+                <a href="support.html"><button type="button" class="btn btn-dark foot">FeedBack</button></a>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <a href="support.html"><button type="button" class="btn btn-dark foot">About Us</button></a>
+                <a href="support.html"><button type="button" class="btn btn-dark foot">Contact info</button></a>
+            </div>
+        </div>
+        <h1 style="padding: 10px; color: #090910;">
+            &copy; copyright by Vatamin-C
+        </h1>
+        
+
+    </footer>
+
+    <script src="pharmacy.js"></script>
+</body>
+
+</html>

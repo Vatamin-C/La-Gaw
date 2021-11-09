@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fas {
+    color: blue;
+}
+
+header {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.figure-caption {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #D72323;
+}
+
+footer {
+    background-color: #000D6B;
+}
+
+.foot {
+    margin: 15px;
+}
